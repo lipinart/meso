@@ -1,66 +1,35 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-	<title>Mesotherapy</title>
-	<meta charset="utf-8"> 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
+	<meta charset="UTF-8">
+	<title>Mini Devel</title>
 	<link rel="stylesheet" href="css/bootstrap-grid.css">
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/style.css">	
-	<link rel="stylesheet" href="css/thanks-style.css">
-	<link rel="stylesheet" href="css/cmb-style.css">	
-	<link rel="stylesheet" href="css/media.css">
-
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#7d003e">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#7d003e">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#7d003e">
-
-	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i|Roboto+Slab|Roboto:400,900&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
 </head>
-<body class="relatived">
-	<!-- header -->
-	<div class="header whited">
-		<div class="container">
-			<div class="header-wrap">
-				<a href="index.html" class="inline-block logo-ico"></a>
-				<a href="#tab-call" class="inline-block tel-ico valign-middle"></a>
-				<a href="tel:+79037209000" id="tel-num" class="inline-block tel-num hidden-xs">+7 (903) 720-90-00</a>
-			</div>
-		</div>
-	</div>
-	<div class="intro">
-		<img src="img/img-01.jpg" class="img-responsive visible-xs">
-		<div class="container">
-			<div class="title-group row whited">
-				<h1 class="title">красота не требует жертв!</h1>
-				<h3 class="sub-title">Безинъекционная 
-	мезотерапия: <div class="visible"></div>красивая и молодая <div class="visible-xs"></div>кожа без уколов</h3>
-			</div>
-		</div>
-	</div>
-	<!-- /header -->
+<body>
 	<!-- callback-first -->
-	<div class="callback callback-first">
-		<div class="container whited">
+<div class="section callback callback-first">
+	<div class="container">
+		<div class="callback-header">
+			<img class="img-responsive" src="images/lips.jpg">
+			<hgroup class="hgroup">
+				<h3>Пухлые губки - ни как у утки!</h3>
+				<p class="lead">Мы за естественную красоту</p>
+			</hgroup>
+		</div>
+		<div class="callback-form">
+			<div class="form-description">
+				Узнайте больше, предоствив свою информацию ниже.
+			</div>
 			<div class="form-wrapper form-inline">
-				<form class="form-order" action="#">
+				<form id="callback-first" class="form-order" action="#">
 				<div class="form-group">
-					<label class="hidden" for="form-name-01">Ваше имя</label>
+					<label for="form-name-01">Ваше имя</label>
 					<input id="form-name-01" class="callback-text" name="name" type="text" placeholder="Ваше имя">
 				</div>
 				<div class="form-group">
-					<label class="hidden" for="form-tel-01">Ваш телефон</label>
+					<label for="form-tel-01">Ваш телефон</label>
 					<input id="form-tel-01" class="callback-text telephone" name="phone" type="tel" placeholder="Ваш телефон">
 				</div>
 				<div class="form-group form-action">
@@ -70,252 +39,135 @@
 			</div>
 		</div>
 	</div>
-	<!-- /callback-first -->
-	<!-- bullets -->
-	<div class="bullets">
-		<div class="container whited">
-			<div class="owl-carousel owl-theme row">
-				<div class="owl-carousel-wrpr">
-					<div class="adv-item like-bg">
-						<div>Без уколов и боли</div>
-					</div>
-				</div>
-				<div class="owl-carousel-wrpr">
-					<div class="adv-item timer-bg">
-						<div>Сеанс длится <br/>до 40 минут</div>
-					</div>
-				</div>
-				<div class="owl-carousel-wrpr">
-					<div class="adv-item table-bg">
-						<div>Можно делать <br/>в день мероприятия</div>
-					</div>
-				</div>
-				<div class="owl-carousel-wrpr">
-					<div class="adv-item molecul-bg">
-						<div>Аппаратная мезотерапия <br/>не повреждает клеток</div>
-					</div>
-				</div>
-				<div class="owl-carousel-wrpr">
-					<div class="adv-item garant-bg">
-						<div>100% гарантия качества <br/>и результата</div>
-					</div>
-				</div>
-			</div>
+</div>
+<!-- /callback-first -->
+<div class="disclaimer">
+	<div class="container">
+		<div class="disclaimer-text">
+			* Нажимая «Записаться», Вы принимаете положения <a href="agreement/agreement.html" target="_blank">Политики конфиденциальности</a>.
 		</div>
 	</div>
-	<!-- /bullets -->
-	<!-- advantages -->
-	<div class="section advantages">
-		<div class="container light-grey">
-			<h3 class="center section-title">Что такое безинъекционная мезотерапия?</h3>
-			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-4">
-					<div class="thumnail">
-						<img class="img-responsive" src="img/img-02.jpg" alt="">
-						<div class="caption">Обычная мезотерапия — <br/>это воздействие на клетки биологически активными веществами путём их введения под кожу. Минусом этой процедуры всегда были уколы.</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="thumnail">
-						<img class="img-responsive" src="img/img-03.jpg" alt="">
-						<div class="caption">Современная косметология решила этот болезненный вопрос. Теперь существует безинъекционная мезотерапия лица, когда активные вещества попадают в клетки без уколов и боли</div>
-					</div>
-				</div>
-				<div class="col-md-1"></div>
-			</div>
-		</div>
-	</div>
-	<!-- /advantages -->
+</div>
 	<!-- callback-second -->
-	<div class="section callback callback-second" id="tab-call">
-		<div class="container greyed left-line">
-			<div class="row is-table-row-md">
-				<div class="col-sm-7 col-md-7 pre-callback-text valign-middle">
-					<div class="quoted">
-						<span class="blacked robotoed">Красота</span> - это <span class="italiced merriweathered">совершенствование</span> <br/>того, что у тебя есть.<br/> Позволь себе <span class="blacked robotoed">сиять!</span>
-					</div>
+<div class="section callback callback-second">
+	<div class="container">
+		<div class="callback-header">
+			<img class="img-responsive" src="images/duck.jpg">
+			<hgroup class="hgroup">
+				<h3>Пухлые губки - ни как у утки!</h3>
+				<p class="lead">Мы за естественную красоту</p>
+			</hgroup>
+		</div>
+		<div class="callback-form">
+			<div class="form-description">
+				Узнайте больше, предоствив свою информацию ниже.
+			</div>
+			<div class="form-wrapper form-inline">
+				<form id="callback-second" class="form-order" action="#">
+				<div class="form-group">
+					<label for="form-name-01">Ваше имя</label>
+					<input id="form-name-01" class="callback-text" name="name" type="text" placeholder="Ваше имя">
 				</div>
-				<div class="col-sm-5 col-md-12">
-					<div class="callback-form">
-						<img class="img-responsive visible-xs visible-sm" src="img/img-04.jpg">
-						<div class="form-wrapper form-inline">
-							<form class="form-order" action="#">
-							<div class="form-group">
-								<label for="form-name-01">Ваше имя</label>
-								<input id="form-name-01" class="callback-text" name="name" type="text" placeholder="Ваше имя">
-							</div>
-							<div class="form-group">
-								<label for="form-tel-01">Ваш телефон</label>
-								<input id="form-tel-01" class="callback-text telephone" name="phone" type="tel" placeholder="Ваш телефон">
-							</div>
-							<div class="form-group form-action">
-								<button class="callback-submit" type="submit">Записаться</button>
-							</div>
-							</form>
-						</div>
-					</div>
+				<div class="form-group">
+					<label for="form-tel-01">Ваш телефон</label>
+					<input id="form-tel-01" class="callback-text telephone" name="phone" type="tel" placeholder="Ваш телефон">
 				</div>
+				<div class="form-group form-action">
+					<button class="callback-submit" type="submit">Записаться</button>
+				</div>
+				</form>
 			</div>
 		</div>
 	</div>
-	<!-- /callback-second-->
-	<!-- step -->
-	<div class="section step">
-		<div class="container skyblued">
-			<h3 class="center section-title">Как это работает?</h3>
-			<div class="row">
-				<div class="col-md-1 col-lg-2"></div>
-				<div class="col-md-10 col-lg-8">
-					<ul class="unstyled numbered">
-						<li class="step-one"><span class="blacked robotoed">ЭТАП</span> - врач выбирает специально для Вас уникальный «коктейль» из лекарственных, средств, микроэлементов и витаминов.</li>
-						<li class="step-two"><span class="blacked robotoed">ЭТАП</span> - «Коктейль» питательных веществ наносится на проблемный участок лица.</li>
-						<li class="step-three"><span class="blacked robotoed">ЭТАП</span> - выбранный участок подвергается действию косметологического аппарата, который способствует глубокому проникновению активных веществ в клетки. </li>
-					</ul>
-				</div>
-				<div class="col-md-1 col-lg-2"></div>
-			</div>
+</div>
+<!-- /callback-second -->
+<div class="disclaimer">
+	<div class="container">
+		<div class="disclaimer-text">
+			* Нажимая «Записаться», Вы принимаете положения <a href="agreement/agreement.html" target="_blank">Политики конфиденциальности</a>.
 		</div>
 	</div>
-	<!-- /step -->
-	<!-- problem -->
-	<div class="section problem ">
-		<div class="container whited">
-			<div class="row fullwidth">
-				<div class="col-sm-5 col-md-5">
-					<img src="img/img-05.jpg" alt="" class="img-responsive">
-				</div>
-				<div class="col-sm-7 col-md-7">
-					<img src="img/img-06.jpg" alt="" class="img-responsive">
-				</div>
-			</div>
-			<h3 class="center section-title">Безинъекционная мезотерапия устраняет проблемы:</h3>
-			<div class="row">
-				<div class="col-md-6">
-					<ul class="unstyled dotted">
-						<li>разглаживат как мелкие морщинки, <br/>так и глубокие складки;</li>
-						<li>активизируют обменные процессы в клетках, исчезнут болезненные покраснения, гиперпигментация, а лицо приобретёт здоровый румянец;</li>
-						<li>устраняет акне;</li>
-						<li>кожа наконец перестанет обвисать;</li>
-						<li>растяжки исчезнут;</li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<ul class="unstyled dotted">
-						<li>лицо приобретает упругость, эластичность, контур заметно подтянется и станет более чётким;</li>
-						<li>процедура поможет избавиться от синяков и мешков под глазами;</li>
-						<li>сухая кожа получит на длительное время необходимое для неё увлажнение и перестанет шелушиться.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /problem -->
+</div>
 	<!-- callback-third -->
-	<div class="section callback callback-third">
-		<div class="container greyed left-line">
-			<div class="row is-table-row-md">
-				<div class="col-sm-7 col-md-11 pre-callback-text valign-middle">
-					<img src="img/img-wave.png" class="quoted-wave visible-lg">
-					<div class="quoted">
-						То, о чем ты <div class="visible-xs visible-sm"></div>думаешь - это ты;<br/>
-						Ты <span class="blacked robotoed">притягиваешь</span> то, что <span class="italiced merriweathered">чувствуешь;</span><br/>
-						Ты <span class="blacked robotoed">создаешь</span> все, что <span class="italiced merriweathered">представляешь.</span>
-					</div>
+<div class="section callback callback-third">
+	<div class="container">
+		<div class="callback-header">
+			<img class="img-responsive" src="images/body.jpg">
+			<hgroup class="hgroup">
+				<h3>прими меры -<br /> смени свои размеры!</h3>
+			</hgroup>
+		</div>
+		<div class="callback-form">
+			<div class="form-description">	Узнайте больше, предоствив свою информацию ниже.
+			</div>
+			<div class="form-wrapper form-inline">
+				<form id="callback-third" class="form-order" action="#">
+				<div class="form-group">
+					<label for="form-name-01">Ваше имя</label>
+					<input id="form-name-01" class="callback-text" name="name" type="text" placeholder="Ваше имя">
 				</div>
-				<div class="col-sm-5 col-md-12">
-					<div class="form-description visible-md visible-lg">Запишитесь на консультацию к врачу-косметологу <br/>в центр медицинской косметологии «Матильда» <br/>и стань королевой времени! </div>
-					<div class="callback-form">
-						<img class="img-responsive visible-xs visible-sm" src="img/img-08.jpg">
-						<div class="form-wrapper form-inline">
-							<form class="form-order" action="#">
-							<div class="form-group">
-								<label for="form-name-01">Ваше имя</label>
-								<input id="form-name-01" class="callback-text" name="name" type="text" placeholder="Ваше имя">
-							</div>
-							<div class="form-group">
-								<label for="form-tel-01">Ваш телефон</label>
-								<input id="form-tel-01" class="callback-text telephone" name="phone" type="tel" placeholder="Ваш телефон">
-							</div>
-							<div class="form-group form-action">
-								<button class="callback-submit" type="submit">Записаться</button>
-							</div>
-							</form>
-						</div>
-					</div>
+				<div class="form-group">
+					<label for="form-tel-01">Ваш телефон</label>
+					<input id="form-tel-01" class="callback-text telephone" name="phone" type="tel" placeholder="Ваш телефон">
 				</div>
+				<div class="form-group form-action">
+					<button class="callback-submit" type="submit">Записаться</button>
+				</div>
+				</form>
 			</div>
 		</div>
 	</div>
-	<!-- /callback-third -->
-	<!-- disclaimer -->
-	<div class="disclaimer">
-		<div class="container">
-			<div class="disclaimer-text">
-				*Нажимая «Записаться», Вы принимаете положения <a href="agreement/agreement.html" target="_blank">Политики конфиденциальности</a>.
-			</div>
+</div>
+<!-- /callback-third -->
+<div class="disclaimer">
+	<div class="container">
+		<div class="disclaimer-text">
+			* Нажимая «Записаться», Вы принимаете положения <a href="agreement/agreement.html" target="_blank">Политики конфиденциальности</a>.
 		</div>
 	</div>
-	<!-- /disclaimer -->
-	<!-- footer -->
-	<div class="section footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 inline-centered">
-					<img src="img/bottom-logo.png" alt="">
-					<p>г. Москва</p>
+</div>
+	<!-- callback-four -->
+<div class="section callback callback-four">
+	<div class="container">
+		<div class="callback-header">
+			<img class="img-responsive" src="images/pushup.jpg">
+			<hgroup class="hgroup">
+				<h3><span class="merriweathered">Шикарная</span> <span class="roboted">PUSH UP ПОПКА</span> <span class="inline-block">для Вас </span><br />за 1 курс!</h3>
+			</hgroup>
+		</div>
+		<div class="callback-form">	
+			<div class="form-description">
+				Узнайте больше, предоствив свою информацию ниже.
+			</div>
+			<div class="form-wrapper form-inline">
+				<form id="callback-four" class="form-order" action="#">
+				<div class="form-group">
+					<label for="form-name-01">Ваше имя</label>
+					<input id="form-name-01" class="callback-text" name="name" type="text" placeholder="Ваше имя">
 				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /footer -->
-	<!-- Modal -->
-	<div id="shadow"></div>
-	<div id="thankyou">
-		<div>
-			<h3>СПАСИБО ЗА ВАШУ ЗАЯВКУ!</h3>
-			<p>Мы с Вами свяжемся <br/>в ближайшее время!</p>
-		</div>
-		<a href="index.html#" class="close-btn"></a>
-	</div>
-	<!-- /Modal -->
-	<!-- Float Button -->
-	<div id="kmacb">
-		<a title="Перезвонить Вам" href="index.html#" data-modal="kmacb-form">
-			<span class="kmacb-circle"></span>
-			<span class="kmacb-circle-fill"></span>
-			<span class="kmacb-img-circle"></span>
-		</a>
-	</div>
-	<div id="kmacb-form" class="modal" style="display: none;">
-		<div class="modal-block modal-top modal-left" style="">
-			<div class="icon-close"></div>
-			<div class="title lt70">Понравилось это предложение?</div>
-			<div class="content">
-				<div class="padding">
-					<p class="lt71">Мы расскажем Вам все об этом товаре, предложим наилучшие условия и ознакомим с подходящими акционными предложениями!</p>
-					<form method="POST" action="index.html" id="order_form" class="order-form order_form">
-						<input type="text" name="name" value="" placeholder="Ваше имя">
-						<input type="text" name="phone" value="" class="telephone" style="margin-left: 2px;" placeholder="Ваш номер телефона">
-						<br>
-						<input type="submit" value="ПЕРЕЗВОНИТЬ МНЕ">
-					</form>
-					<p class="bold lt72" style="text-align: center;">Оператор обязательно перезвонит Вам!</p>
+				<div class="form-group">
+					<label for="form-tel-01">Ваш телефон</label>
+					<input id="form-tel-01" class="callback-text telephone" name="phone" type="tel" placeholder="Ваш телефон">
 				</div>
+				<div class="form-group form-action">
+					<button class="callback-submit" type="submit">Записаться</button>
+				</div>
+				</form>
 			</div>
 		</div>
 	</div>
-	<!-- /Float Button -->
-	<!-- JS & Libs -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-	<script src="owlcarousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.maskedinput.js"></script>
-	<script src="js/script.min.js"></script>
-	<!-- /JS & Libs -->
+</div>
+<!-- /callback-four -->
+<div class="disclaimer">
+	<div class="container">
+		<div class="disclaimer-text">
+			* Нажимая «Записаться», Вы принимаете положения <a href="agreement/agreement.html" target="_blank">Политики конфиденциальности</a>.
+		</div>
+	</div>
+</div>
 
-	<!-- Metrics --><!-- /Metrics -->
-
+	<!-- Scripts-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/common.js"></script>
 </body>
 </html>
