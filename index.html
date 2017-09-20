@@ -1,101 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Mini Devel</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sexy Lips</title>
 	<link rel="stylesheet" href="css/bootstrap-grid.css">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i|Roboto+Slab|Roboto:400,900&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700i,900&amp; Roboto:400,900&amp;subset=cyrillic" rel="stylesheet">
+	
+	<link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="css/thanks-style.css">
+
+	
+	
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+		(function (d, w, c) {
+			(w[c] = w[c] || []).push(function() {
+				try {
+					w.yaCounter45834738 = new Ya.Metrika({
+						id:45834738,
+						clickmap:true,
+						trackLinks:true,
+						accurateTrackBounce:true,
+						webvisor:true
+					});
+				} catch(e) { }
+			});
+
+			var n = d.getElementsByTagName("script")[0],
+				s = d.createElement("script"),
+				f = function () { n.parentNode.insertBefore(s, n); };
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", f, false);
+			} else { f(); }
+		})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/45834738" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+	
+	
 </head>
 <body>
-	<!-- callback-first -->
-<div class="section callback callback-first">
-	<div class="container">
-		<div class="callback-header">
-			<img class="img-responsive" src="images/lips.jpg">
-			<hgroup class="hgroup">
-				<h3>Пухлые губки - ни как у утки!</h3>
-				<p class="lead">Мы за естественную красоту</p>
-			</hgroup>
-		</div>
-		<div class="callback-form">
-			<div class="form-description">
-				Узнайте больше, предоствив свою информацию ниже.
-			</div>
-			<div class="form-wrapper form-inline">
-				<form id="callback-first" class="form-order" action="#">
-				<div class="form-group">
-					<label for="form-name-01">Ваше имя</label>
-					<input id="form-name-01" class="callback-text" name="name" type="text" placeholder="Ваше имя">
-				</div>
-				<div class="form-group">
-					<label for="form-tel-01">Ваш телефон</label>
-					<input id="form-tel-01" class="callback-text telephone" name="phone" type="tel" placeholder="Ваш телефон">
-				</div>
-				<div class="form-group form-action">
-					<button class="callback-submit" type="submit">Записаться</button>
-				</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- /callback-first -->
-<div class="disclaimer">
-	<div class="container">
-		<div class="disclaimer-text">
-			* Нажимая «Записаться», Вы принимаете положения <a href="agreement/agreement.html" target="_blank">Политики конфиденциальности</a>.
-		</div>
-	</div>
-</div>
-	<!-- callback-second -->
-<div class="section callback callback-second">
-	<div class="container">
-		<div class="callback-header">
-			<img class="img-responsive" src="images/duck.jpg">
-			<hgroup class="hgroup">
-				<h3>Пухлые губки - ни как у утки!</h3>
-				<p class="lead">Мы за естественную красоту</p>
-			</hgroup>
-		</div>
-		<div class="callback-form">
-			<div class="form-description">
-				Узнайте больше, предоствив свою информацию ниже.
-			</div>
-			<div class="form-wrapper form-inline">
-				<form id="callback-second" class="form-order" action="#">
-				<div class="form-group">
-					<label for="form-name-01">Ваше имя</label>
-					<input id="form-name-01" class="callback-text" name="name" type="text" placeholder="Ваше имя">
-				</div>
-				<div class="form-group">
-					<label for="form-tel-01">Ваш телефон</label>
-					<input id="form-tel-01" class="callback-text telephone" name="phone" type="tel" placeholder="Ваш телефон">
-				</div>
-				<div class="form-group form-action">
-					<button class="callback-submit" type="submit">Записаться</button>
-				</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- /callback-second -->
-<div class="disclaimer">
-	<div class="container">
-		<div class="disclaimer-text">
-			* Нажимая «Записаться», Вы принимаете положения <a href="agreement/agreement.html" target="_blank">Политики конфиденциальности</a>.
-		</div>
-	</div>
-</div>
-	<!-- callback-third -->
+
+<!-- callback-third -->
 <div class="section callback callback-third">
 	<div class="container">
 		<div class="callback-header">
-			<img class="img-responsive" src="images/body.jpg">
-			<hgroup class="hgroup">
-				<h3>прими меры -<br /> смени свои размеры!</h3>
-			</hgroup>
+			<div class="owl-carousel owl-custom">
+				<img class="item img-responsive" src="images/001.jpg">
+				<img class="item img-responsive" src="images/002.jpg">
+				<img class="item img-responsive" src="images/003.jpg">
+				<img class="item img-responsive" src="images/004.jpg">
+				<img class="item img-responsive" src="images/005.jpg">
+			</div>
+			<div class="hgroup">
+				<h3 class="merriweathered">Выглядеть <span class="bolder"> после 50 на 30</span> можно и нужно!<br>Узнайте подробнее о <span class="bolder">ВСПЫШКЕ МОЛОДОСТИ</span></h3>
+			</div>
 		</div>
 		<div class="callback-form">
 			<div class="form-description">	Узнайте больше, предоствив свою информацию ниже.
@@ -126,48 +91,23 @@
 		</div>
 	</div>
 </div>
-	<!-- callback-four -->
-<div class="section callback callback-four">
-	<div class="container">
-		<div class="callback-header">
-			<img class="img-responsive" src="images/pushup.jpg">
-			<hgroup class="hgroup">
-				<h3><span class="merriweathered">Шикарная</span> <span class="roboted">PUSH UP ПОПКА</span> <span class="inline-block">для Вас </span><br />за 1 курс!</h3>
-			</hgroup>
-		</div>
-		<div class="callback-form">	
-			<div class="form-description">
-				Узнайте больше, предоствив свою информацию ниже.
-			</div>
-			<div class="form-wrapper form-inline">
-				<form id="callback-four" class="form-order" action="#">
-				<div class="form-group">
-					<label for="form-name-01">Ваше имя</label>
-					<input id="form-name-01" class="callback-text" name="name" type="text" placeholder="Ваше имя">
-				</div>
-				<div class="form-group">
-					<label for="form-tel-01">Ваш телефон</label>
-					<input id="form-tel-01" class="callback-text telephone" name="phone" type="tel" placeholder="Ваш телефон">
-				</div>
-				<div class="form-group form-action">
-					<button class="callback-submit" type="submit">Записаться</button>
-				</div>
-				</form>
-			</div>
-		</div>
+
+<div id="shadow"></div>
+<div id="thankyou">
+	<div>
+		<h3>СПАСИБО ЗА ВАШУ ЗАЯВКУ!</h3>
+		<p>В БЛИЖАЙШЕЕ ВРЕМЯ МЫ С ВАМИ СВЯЖЕМСЯ!</p>
 	</div>
-</div>
-<!-- /callback-four -->
-<div class="disclaimer">
-	<div class="container">
-		<div class="disclaimer-text">
-			* Нажимая «Записаться», Вы принимаете положения <a href="agreement/agreement.html" target="_blank">Политики конфиденциальности</a>.
-		</div>
-	</div>
+	<a href="#" class="close-btn"></a>
 </div>
 
 	<!-- Scripts-->
-	<script src="js/jquery.min.js"></script>
+	<script
+			  src="http://code.jquery.com/jquery-1.12.4.min.js"
+			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			  crossorigin="anonymous"></script>
+	<script src="js/jquery.maskedinput.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="js/common.js"></script>
 </body>
 </html>
