@@ -368,7 +368,7 @@ body {
       transition: opacity 200ms ease;
       border-radius: 30px; }
     .owl-custom .owl-dots .owl-dot.active span, .owl-custom .owl-dots .owl-dot:hover span {
-      background: #f44336; zoom: 2;}
+      background: #f44336;}
 
 .hgroup h3 {
     color: #880e4f;
