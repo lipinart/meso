@@ -21,12 +21,16 @@ $(document).ready(function() {
 		responsive:{
 	        0:{
 	        	items:1
-	        },
-	        960:{
-	        	items:2
 	        }
-	    }
-	});	
+	    },
+	    onTranslated : setAge
+	});
+	
+	function setAge(){
+    	var newAge = $('.owl-custom .active .caption').html().replace(/\D+/g,"");
+    	$('.dynamic-age').text(newAge);
+    	//console.log(newAge);
+    }
 	
 	// Закрывание всех форм по нажатию на крестик
 	$(document).on('click', 'a.close-btn', function() {
