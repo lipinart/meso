@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="utf-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sexy Lips</title>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i|Roboto+Slab&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/animate.css">	
+	<link rel="stylesheet" href="libs/flippage/jquery.flippage.css">
 	<link rel="stylesheet" href="css/main.min.css">	
 </head>
 <body>
 <section class="section callback">
 	<div class="container">
 		<div class="callback-header">
-			<div class="owl-carousel owl-custom">
-				<img class="item img-responsive" src="images/01.jpg">
-				<img class="item img-responsive" src="images/02.jpg">
-				<img class="item img-responsive" src="images/03.jpg">
-				<img class="item img-responsive" src="images/04.jpg">
-				<img class="item img-responsive" src="images/05.jpg">
-				<img class="item img-responsive" src="images/06.jpg">
-				<img class="item img-responsive" src="images/07.jpg">
-				<img class="item img-responsive" src="images/08.jpg">
+
+			<div id="flip-slider">
+				<div><img src="images/01.jpg" style="margin-left: 0;" /></div>
+				<div><img src="images/01.jpg" style="margin-left: -160px;" /></div>
+				<div><img src="images/02.jpg" style="margin-left: 0;" /></div>
+				<div><img src="images/02.jpg" style="margin-left: -160px;" /></div>
+				<div><img src="images/03.jpg" style="margin-left: 0;" /></div>
+				<div><img src="images/03.jpg" style="margin-left: -160px;" /></div>
+				<div><img src="images/04.jpg" style="margin-left: 0;" /></div>
+				<div><img src="images/04.jpg" style="margin-left: -160px;" /></div>
+				<div><img src="images/05.jpg" style="margin-left: 0;" /></div>
+				<div><img src="images/05.jpg" style="margin-left: -160px;" /></div>
+				<div><img src="images/06.jpg" style="margin-left: 0;" /></div>
+				<div><img src="images/06.jpg" style="margin-left: -160px;" /></div>
+				<div><img src="images/07.jpg" style="margin-left: 0;" /></div>
+				<div><img src="images/07.jpg" style="margin-left: -160px;" /></div>
+				<div><img src="images/08.jpg" style="margin-left: 0;" /></div>
+				<div><img src="images/08.jpg" style="margin-left: -160px;" /></div>
 			</div>
 
 			<div class="hgroup">
@@ -50,7 +58,6 @@
 	</div>
 </section>
 <!-- /callback-third -->
-
 <footer class="disclaimer">
 	<div class="container">
 		<div class="disclaimer-text">
@@ -60,6 +67,8 @@
 </footer>
 
 <!-- Modal -->
+
+<!-- end Modal -->
 <div id="thankyou" class="modal" role="dialog">
 	<div class="modal-content">
 		<h3>Спасибо за вашу заявку!</h3>
@@ -68,7 +77,7 @@
     </div>
 </div>
 <div id="shadow" class="modal-backdrop"></div>
-<!-- end Modal -->
+
 
 
 	<!-- Scripts-->
@@ -77,7 +86,7 @@
 			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
 			  crossorigin="anonymous"></script>
 	<script src="js/jquery.maskedinput.js"></script>
-	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/flippage/jquery.flippage.min.js"></script>
 	<script src="js/common.js"></script>
 </body>
 </html>

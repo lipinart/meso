@@ -14,22 +14,10 @@ $(document).ready(function() {
 	$(".telephone").mask("+7 (999) 999-99-99");
 
 
-	//Slider init
-	$('.owl-custom').owlCarousel({
-		items:1,
-		animateOut: 'fadeOutLeft',
-		nav: false,
-		margin: 10,
-		loop: true,
-		autoplay: true,
-		autoplayTimeout: 2500,
-		responsive:{
-	        0:{
-	        	items:1
-	        }
-	    }
+	$('#flip-slider').flippage({
+		width: 320,
+		height: 320
 	});
-
 	
 	// Закрывание всех форм по нажатию на крестик
 	$(document).on('click', 'a.btn-close', function() {
